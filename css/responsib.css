@@ -1,0 +1,105 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 320px) and (max-width: 575px) 
+{
+	.breadcrumb-section{
+		text-align: center;
+	}
+	.breadcrumb-section .breadcrumb{
+		justify-content: center;
+	}
+	.product-details {
+		margin-top: 40px;
+	}
+	.single-collection .collection-img img{
+		width: 100%;
+	}
+	.social-network{
+		text-align: center;
+	}
+	.social-network p{
+		font-size: 14px;
+		margin-bottom: 20px;
+	}
+	.footer-top-text{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.footer-top .footer-top-text h3::after{
+		left: 50% !important;
+		transform: translateX(-50%);
+	}
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 576px) and (max-width: 767px) 
+{
+	.breadcrumb-section{
+		text-align: center;
+	}
+	.breadcrumb-section .breadcrumb{
+		justify-content: center;
+	}
+	.product-details {
+		margin-top: 60px;
+	}
+	.single-collection .collection-img img{
+		width: 100%;
+	} 
+	.social-network{
+		text-align: center;
+	}
+	.social-network p{
+		margin-bottom: 30px;
+	}
+	.footer-top-text{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.footer-top .footer-top-text h3::after{
+		left: 50% !important;
+		transform: translateX(-50%);
+	}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 991px) 
+{
+	.breadcrumb-section{
+		text-align: center;
+	}
+	.breadcrumb-section .breadcrumb{
+		justify-content: center;
+	}
+	.product-details {
+		margin-top: 80px;
+	}
+	.single-collection .collection-img img{
+		width: 100%;
+	} 
+	.social-network{
+		text-align: center;
+	}
+	.social-network p{
+		margin-bottom: 30px;
+	}
+	.footer-top-text{
+		text-align: center;
+		margin-bottom: 50px;
+	}
+	.footer-top .footer-top-text h3::after{
+		left: 50% !important;
+		transform: translateX(-50%);
+	}
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) 
+{
+	.footer-top .footer-top-text h3 {
+		font-size: 18px !important;
+	}
+	.footer-top .footer-top-text .footer-top-logo p{
+		font-size: 14px !important;
+	}
+
+}
